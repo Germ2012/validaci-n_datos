@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DIC cafe</title>
+  <link href="CSS/normalize.css" rel="stylesheet">
+  <link href="CSS/main.css" rel="stylesheet">
+  <link href="CSS/contact.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+</head>
+
+<body class="body_c">
+  <header class="sub_header">
+    <nav class="header_nav">
+      <a href="sitio_de_prueba.html"><img src="IMAGES/sample_logo_k.png" class="logo"></a>
+      <ul class="global_nav">
+        <a href="sitio_de_prueba.html" class="global_nav_item">
+          <li>Home</li>
+        </a>
+        <a href="sitio_de_prueba.html" class="global_nav_item">
+          <li>Menu</li>
+        </a>
+        <a href="sale.html" class="global_nav_item">
+          <li>Envios</li>
+      </a>
+        <a href="contact.html" class="global_nav_item">
+          <li>Contactos</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <section class="section_inner_c">
+    <div class="section_title_c">
+      <h1 style="margin-bottom: 0;">CONTACTO</h1>
+      <p>Contáctanos</p>
+    </div>
+    <form action="#" method="POST" id="form">
+      <table class="contact">
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="name">Nombre</label></td>
+          <td class="contact_input"><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="email">Correo electrónico</label></td>
+          <td class="contact_input"><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="email_confirm">Confirme el correo</label></td>
+          <td class="contact_input"><input type="email" name="email_confirm" id="email_confirm"></td>
+        </tr>
+        <tr class="contact_content" id="content0">
+          <td class="contact_sign"><label for="content">Contenido</label></td>
+          <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+        </tr>
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="region">Región de residencia</label></td>
+          <td>
+            <select id="region">
+              <option value="0">Por favor, seleccione.</option>
+              <option value="1">Hokkaido</option>
+              <option value="2">Tohoku (las seis prefecturas más septentrionales de Honshu)</option>
+              <option value="3">Kantou (mitad oriental de Japón, incluido Tokio)</option>
+              <option value="4">centro</option>
+              <option value="5">Kinki (región alrededor de Osaka, Kioto y Nara)</option>
+              <option value="6">Chugoku y Shikoku</option>
+              <option value="7">Kyushu (la más meridional de las cuatro islas principales de Japón)</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <div class="contact_btn_area">
+        <button type="reset" class="contact_btn reset_btn">Reiniciar</button>
+        <button type="submit" class="contact_btn submit_btn">Enviar</button>
+      </div>
+    </form>
+  </section>
+  <script type="text/javascript" src="JS/validation.js"></script>
+  <footer>
+    <nav>
+      <ul>
+        <a href="sitio_de_prueba.html">
+          <li>Home</li>
+        </a>
+        <a href="#menu">
+          <li>Menu</li>
+        </a>
+        <a href="contact.html">
+          <li>Contact</li>
+        </a>
+        <a href="sitio_de_prueba.html">
+          <li>
+            <img class="pie_imagen" src="IMAGES/sample_logo_w.png">
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <p style="text-align: center;"><small>© DIVIC Corp. All RIGHTS RESERVED.</small></p>
+  </footer>
+
+</body>
+
+</html>

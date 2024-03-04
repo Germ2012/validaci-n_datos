@@ -1,0 +1,182 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../IMAGES/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.centrar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+.descripcion {
+  display: flex;
+}
+.descripcion> p{
+  width: 60%;
+  text-align: justify;
+  margin-right: 80px;
+  font-size: 25px;
+}
+.descripcion> img{
+  width: 35%;
+}
+.seccion_menu{
+  background-image: url(../IMAGES/sample_menu_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.panqueques_carta{
+  background-color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 49%;
+}
+.panqueques_carta> img{
+  width: 55%;
+}
+.panqueques_menu{
+  display: flex;
+  column-gap: 25px;
+}
+.carta> h2{
+  font-size: 30px; text-align: center;
+  color: #42210b;
+  font: bolder;
+}
+.monto_panqueque{
+  text-align: right; margin-top: 80%; font-size: 20px;
+  margin-right: 15px;
+}
+.menu_cafes{
+  background-color: #fff;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.menu_cafes> li{
+  width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.menu_cafes> img{
+  width: 20%;
+}
+.menu_cafes> li .carta_cafe{
+  width: 80%;
+  padding: 10px;
+}
+dl{
+  display: flex;
+}
+dt{
+  width: 80px;
+}
+iframe{
+  width: 100%;
+}
+footer{
+  background-color: #251e19;
+  color: #fff;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer>nav>ul{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 5px;
+}
+a{
+  color: #fff;
+  text-decoration: none
+}
+.pie_imagen{
+  width: 50px;
+  margin-top: 1px;
+}
